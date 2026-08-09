@@ -1,0 +1,837 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tirupati Sales Corporation</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600;700&family=Inter:wght@300;400;500;600&family=Bebas+Neue&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+    <link rel="icon" type="image/svg+xml" href="Assets/TSC-logo.svg">
+</head>
+
+
+
+<body>
+
+
+  <!-- NAVBAR -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-brand">
+      <img src="Assets/TSC-logo.svg" alt="TSC Logo" class="logo-img">
+      <div class="brand-text">
+        <span class="brand-main">TIRUPATI SALES CORPORATION</span>
+       <!--<span class="brand-sub">SALES CORPORATION</span>> --> 
+      </div>
+    </div>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#home" class="nav-link active">Home</a></li>
+      <li><a href="#deals" class="nav-link">Products</a></li>
+      <li><a href="#pricelist" class="nav-link">Price List</a></li>
+      <!-- <li><a href="#founder" class="nav-link">Founder</a></li> -->
+      <li><a href="#about" class="nav-link">About Us</a></li>
+      <li><a href="#enquiry" class="nav-link">Enquiry</a></li>
+      <li><a href="#contact" class="nav-link">Contact</a></li>
+    </ul>
+    <div class="hamburger" id="hamburger">
+      <span></span><span></span><span></span>
+    </div>
+  </nav>
+
+  <!-- HERO SECTION -->
+  <section class="hero" id="home">
+    <div class="hero-bg-grid"></div>
+    <div class="hero-content">
+        <h1 class="hero-title animate-fade-up delay-1">
+          TIRUPATI<br/>
+          <span class="hero-accent">
+            SALES<br/>
+            CORPORATION
+          </span>
+        </h1>
+      <p class="hero-desc animate-fade-up delay-2">
+        Your one-stop destination for Industrial, Mechanical,<br/>
+        Hand Tools &amp; Maintenance Items in Chh. Sambhajinagar
+      </p>
+      <div class="hero-btns animate-fade-up delay-3">
+        <a href="#deals" class="btn-primary">Explore Products</a>
+        <a href="#contact" class="btn-outline">Contact Us</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRODUCT RANGE GRID -->
+  <section class="product-range-section" id="product-range">
+    <div class="section-header">
+      <span class="section-tag">Product Range</span>
+      <h2 class="section-title">Authorized Distributors of</h2>
+      <p class="section-sub">A curated selection of trusted industrial brands we supply under one roof.</p>
+    </div>
+
+    <div class="brand-grid">
+      <article class="brand-card">
+        <!-- <div class="brand-card-icon">+</div> -->
+      <img
+          src="Assets/akar.webp"
+          alt="Akar logo"
+          class="brand-logo"
+          width="180"
+          height="80"
+          loading="lazy"
+          decoding="async">
+      </article>
+      <article class="brand-card">
+        <!-- <div class="brand-card-icon">+</div> -->
+        <img src="Assets/totem.png" alt="Totem logo" class="brand-logo">
+      </article>
+      <article class="brand-card">
+        <!-- <div class="brand-card-icon">+</div> -->
+        <img src="Assets/bradma.png" alt="bradma logo" class="brand-logo">
+      </article>
+      <article class="brand-card">
+        <!-- <div class="brand-card-icon">+</div> -->
+        <img src="Assets/fenner.png" alt="Fenner logo" class="brand-logo">
+      </article>
+      <article class="brand-card">
+        <!-- <div class="brand-card-icon">+</div> -->
+        <img src="Assets/eastman.png" alt="Eastmann logo" class="brand-logo">
+      </article>
+      <article class="brand-card">
+        <!-- <div class="brand-card-icon">+</div> -->
+        <img src="Assets/SVS_Logo.png" alt="svs logo" class="brand-logo">
+      </article>
+
+      <article class="brand-card">
+        <!-- <div class="brand-card-icon">+</div> -->
+        <img src="Assets/laser.png" alt="laser logo" class="brand-logo">
+      </article>
+
+      <article class="brand-card">
+
+        <img src="Assets/speb7.png" alt="Selec logo" class="brand-logo">
+      </article>
+      <article class="brand-card">
+
+        <img src="Assets/sterling.png" alt="Wilo logo" class="brand-logo">
+      </article>
+
+    </div>
+  </section>
+
+  <!-- DEALS / PRODUCTS SECTION -->
+  <section class="deals-section" id="deals">
+    <div class="section-header">
+      <span class="section-tag">What We Offer</span>
+      <h2 class="section-title">We Deal In</h2>
+      <p class="section-sub">Quality products from trusted brands for every industrial need</p>
+    </div>
+
+    <div class="deals-carousel-wrapper">
+      <button class="carousel-btn prev" id="prevBtn"><i class="fas fa-chevron-left"></i></button>
+      <div class="deals-carousel" id="dealsCarousel">
+
+        <div class="deal-card">
+          <div class="deal-icon-wrap" style="background: linear-gradient(135deg,#7dd3fc,#38bdf8)">
+            <i class="fas fa-tools"></i>
+          </div>
+          <h3>Industrial Tools</h3>
+          <p>Heavy-duty tools built for industrial environments — drills, grinders, cutters &amp; more.</p>
+          <ul class="deal-list">
+            <li>Power Drills</li><li>Angle Grinders</li><li>Cutting Tools</li><li>Measuring Instruments</li>
+          </ul>
+        </div>
+
+        <div class="deal-card">
+          <div class="deal-icon-wrap" style="background: linear-gradient(135deg,#7c1a1a,#dc2626)">
+            <i class="fas fa-cog"></i>
+          </div>
+          <h3>Mechanical Parts</h3>
+          <p>Bearings, belts, pulleys and all mechanical transmission components.</p>
+          <ul class="deal-list">
+            <li>V-Belts (Fenner)</li><li>Bearings</li><li>Pulleys</li><li>Couplings</li>
+          </ul>
+        </div>
+
+        <div class="deal-card">
+          <div class="deal-icon-wrap" style="background: linear-gradient(135deg,#14532d,#16a34a)">
+            <i class="fas fa-wrench"></i>
+          </div>
+          <h3>Hand Tools</h3>
+          <p>Professional-grade hand tools for technicians, engineers and maintenance staff.</p>
+          <ul class="deal-list">
+            <li>Spanners &amp; Wrenches</li><li>Hammers</li><li>Pliers &amp; Cutters</li><li>Screwdrivers</li>
+          </ul>
+        </div>
+
+        <div class="deal-card">
+          <div class="deal-icon-wrap" style="background: linear-gradient(135deg,#3b1a6b,#7c3aed)">
+            <i class="fas fa-oil-can"></i>
+          </div>
+          <h3>Maintenance Items</h3>
+          <p>Everything needed to keep your machinery running at peak performance.</p>
+          <ul class="deal-list">
+            <li>Lubricants &amp; Greases</li><li>Adhesive Tapes</li><li>Cleaning Agents</li><li>Safety Equipment</li>
+          </ul>
+        </div>
+
+        <div class="deal-card">
+          <div class="deal-icon-wrap" style="background: linear-gradient(135deg,#1a4a6b,#0891b2)">
+            <i class="fas fa-print"></i>
+          </div>
+          <h3>Label &amp; Marking</h3>
+          <p>Bradma embossing &amp; marking solutions for industrial identification needs.</p>
+          <ul class="deal-list">
+            <li>Embossing Machines</li><li>Label Makers</li><li>Marking Tapes</li><li>Asset Tags</li>
+          </ul>
+        </div>
+
+
+
+      </div>
+      <button class="carousel-btn next" id="nextBtn"><i class="fas fa-chevron-right"></i></button>
+    </div>
+
+    <div class="carousel-dots" id="carouselDots"></div>
+  </section>
+
+  <!-- STATS COUNTER -->
+  <section class="stats-section">
+    <div class="stat-item">
+      <span class="stat-number" data-target="7000">0</span><span class="stat-plus">+</span>
+      <span class="stat-label">Products</span>
+    </div>
+    <div class="stat-divider"></div>
+    <div class="stat-item">
+      <span class="stat-number" data-target="9">0</span><span class="stat-plus">+</span>
+      <span class="stat-label">Brands</span>
+    </div>
+    <div class="stat-divider"></div>
+    <div class="stat-item">
+      <span class="stat-number" data-target="500">0</span><span class="stat-plus">+</span>
+      <span class="stat-label">Happy Clients</span>
+    </div>
+    <div class="stat-divider"></div>
+    <div class="stat-item">
+      <span class="stat-number" data-target="32">0</span><span class="stat-plus">+</span>
+      <span class="stat-label">Years Experience</span>
+    </div>
+  </section>
+
+
+
+
+</section>
+
+
+<!-- PRICE LIST SECTION -->
+<section class="price-section" id="pricelist">
+
+    <div class="section-header">
+        <span class="section-tag">Pricing</span>
+        <h2 class="section-title">Price List</h2>
+        <p class="section-sub">
+            Competitive prices on all major product categories
+        </p>
+    </div>
+
+    <!-- ================= TOTEM ================= -->
+<div class="brand-price-box">
+
+
+    <div class="brand-header" onclick="toggleBrand('totem')">
+
+        <h3>TOTEM Price List</h3>
+
+        <span id="totem-arrow">▼</span>
+
+    </div>
+
+
+
+    <div class="product-grid" id="totem">
+
+
+        <div class="product-card" onclick="openPDF('https://drive.google.com/file/d/1Qyzb_0WBE9c9AZJ_1QsCMCHPy7dLEcJ5/preview')">
+
+            <img src="Assets/totem1.webp" alt="CARBON STEEL CUT THREADS TAPS" loading ="lazy">
+
+            <h4>CARBON STEEL CUT THREADS TAPS</h4>
+
+        </div>
+
+
+
+
+            <div  class="product-card" onclick="openPDF('https://drive.google.com/file/d/1Vr6It_2VfvcKkzwvquIBLu-6aEIa7-Lg/preview')">
+
+                <img src="Assets/totem2.webp" alt="DIES & DIE NUTS" loading ="lazy">
+
+                <h4>DIES & DIE NUTS</h4>
+
+            </div>
+
+
+
+
+
+
+            <div  class="product-card" onclick="openPDF('https://drive.google.com/file/d/1IjPWvJH7vcB2z2ApQohB4LI2HorP0ebt/preview')">
+
+                <img src="Assets/totem3.webp" alt="HSS TAPS" loading ="lazy">
+
+                <h4>HSS TAPS</h4>
+
+            </div>
+
+
+
+
+
+
+            <div  class="product-card" onclick="openPDF('https://drive.google.com/file/d/15rIPNb71-mzVdZTSFABMEF_vWd-2T-Nl/preview')">
+
+                <img src="Assets/totem4.webp" alt="HIGH SPEED STEEL DRILLS" loading ="lazy">
+
+                <h4>HIGH SPEED STEEL DRILLS</h4>
+
+            </div>
+
+
+
+
+
+
+            <div  class="product-card" onclick="openPDF('https://drive.google.com/file/d/1ZCCWLAoAd1StoWFPBRrFmMlDTKpcihwV/preview')">
+
+                <img src="Assets/totem5.webp" alt="SPRING LOCK WASHERS" loading ="lazy">
+
+                <h4>SPRING LOCK WASHERS</h4>
+
+            </div>
+
+            <div  class="product-card" onclick="openPDF('https://drive.google.com/file/d/1U0pDMuqxIpAkCUg1X9zH4_1-CwvwQ1_t/preview')">
+
+                <img src="Assets/totem6.webp" alt="TUNGSTEN CARBIDE ROTARY BURRS-1" loading ="lazy">
+
+                <h4>TUNGSTEN CARBIDE ROTARY BURRS-1</h4>
+
+            </div>
+
+
+            <div  class="product-card" onclick="openPDF('https://drive.google.com/file/d/1Z5s1sXS9sxQQ3abGSqcn4oTf3NWTLfHD/preview')">
+
+                <img src="Assets/totem7.webp" alt="TUNGSTEN CARBIDE ROTARY BURRS-2" loading ="lazy">
+
+                <h4>TUNGSTEN CARBIDE ROTARY BURRS-2</h4>
+
+            </div>
+
+
+    </div>
+
+
+</div>
+
+
+
+    <!-- ================= BRAHMA ================= -->
+
+
+    <div class="brand-price-box">
+
+
+        <div class="brand-header" onclick="toggleBrand('brahma')">
+
+            <h3>Brahma Price List</h3>
+
+            <span id="brahma-arrow">▼</span>
+
+        </div>
+
+
+
+        <div class="product-grid" id="brahma">
+
+
+            <div class="product-card" onclick="openPDF('https://drive.google.com/file/d/14uOQlhvjDPNsqETnIHRWNlJMDw_nV6ul/preview')">
+
+                <img src="Assets/bradma-1.webp" alt="Brahma Products" loading ="lazy">
+
+                <h4>Brahma Products</h4>
+
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+
+
+
+
+
+    <!-- ================= AKAR ================= -->
+
+
+    <div class="brand-price-box">
+
+
+        <div class="brand-header" onclick="toggleBrand('akar')">
+
+            <h3>Akar Price List</h3>
+
+            <span id="akar-arrow">▼</span>
+
+        </div>
+
+
+
+        <div class="product-grid" id="akar">
+
+
+            <div class="product-card" onclick="openPDF('https://drive.google.com/file/d/1vmM64fd8j3zvvqVfwZO4_DcAyJ48_rwB/preview')">
+
+                <img src="Assets/akar-1.webp" alt="Akar Products" loading ="lazy">
+
+                <h4>Akar Products</h4>
+
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+
+
+
+
+
+    <!-- ================= EASTMAN ================= -->
+
+
+    <div class="brand-price-box">
+
+
+        <div class="brand-header" onclick="toggleBrand('eastman')">
+
+            <h3>Eastman Price List</h3>
+
+            <span id="eastman-arrow">▼</span>
+
+        </div>
+
+
+
+        <div class="product-grid" id="eastman">
+
+            <div class="product-card" onclick="openPDF('https://drive.google.com/file/d/1g_fYOPCAOaIcrxh4JYsew28tBvp4Lvvm/preview')">
+
+                <img src="Assets/eastman-1.webp"  alt="Eastman Products" loading ="lazy">
+
+                <h4>Eastman Products</h4>
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+
+
+
+
+
+    <!-- ================= OTHER ================= -->
+
+
+    <div class="brand-price-box">
+
+
+        <div class="brand-header" onclick="toggleBrand('other')">
+
+            <h3>Other Price List</h3>
+
+            <span id="other-arrow">▼</span>
+
+        </div>
+
+
+
+        <div class="product-grid" id="other">
+
+            <div class="product-card" onclick="openPDF('https://drive.google.com/file/d/1yB6nxub6aYsv2qrnu5JvUkjSEmmg9ksf/preview')">
+
+                <img src="Assets/jk.webp" alt="JK Make File" loading ="lazy">
+
+                <h4>JK Make File</h4>
+
+            </div>
+
+
+
+            <div class="product-card" onclick="openPDF('https://drive.google.com/file/d/1K6nNqOylYz8V1qRkYrtRCtuqCqdTItGL/preview')">
+
+                <img src="Assets/Netcko.webp" alt="Netko Products" loading ="lazy">
+
+                <h4>Netko Products</h4>
+
+            </div>
+
+
+            <div class="product-card" onclick="openPDF('https://drive.google.com/file/d/1AS2gAc6CLO47J0CDq6aUX15XiCbUkFUj/preview')">
+
+                <img src="Assets/Caparo.webp" alt="Caparo Products" loading ="lazy">
+
+                <h4>Caparo Products</h4>
+
+            </div>
+
+
+            <div class="product-card" onclick="openPDF('https://drive.google.com/file/d/1tnq9Txg8Zk9cMsmJCD4ccutDO_XDB2xA/preview')">
+
+                <img src="Assets/Locolite.webp" alt="Locolite Products" loading ="lazy">
+
+                <h4>Locolite Products</h4>
+
+            </div>
+
+
+            <div class="product-card" onclick="openPDF('https://drive.google.com/file/d/1zRXtOCyvu6YLZUBfABUsV5re4HwoNDks/preview')">
+
+                <img src="Assets/Magadh.webp" alt="Magadh Products" loading ="lazy">
+
+                <h4>Magadh Products</h4>
+
+            </div>
+
+
+            <div class="product-card" onclick="openPDF('https://drive.google.com/file/d/11HCMwqjiLRBx6KZ_DDKVZeRKZS9R4VC6/preview')">
+
+                <img src="Assets/Miranda.webp" alt="Miranda Products" loading ="lazy">
+
+                <h4>Miranda Products</h4>
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+
+  </section>
+
+
+
+
+
+
+
+
+  <!-- FOUNDER SECTION -->
+  <section class="founder-section" id="founder">
+    <div class="section-header">
+      <span class="section-tag">Leadership</span>
+      <h2 class="section-title">About Our Founder</h2>
+    </div>
+    <div class="founder-card">
+      <div class="founder-photo-side">
+ <div class="founder-photo-frame">
+
+    <img src="Assets/founder_image.webp" alt="Rajesh Pardeshi">
+
+</div>
+        <div class="founder-contact-chips">
+          <a href="tel:9325211975" class="chip"><i class="fas fa-phone"></i> 9325211975</a>
+          <a href="https://wa.me/919325211975" class="chip whatsapp"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+        </div>
+      </div>
+      <div class="founder-bio-side">
+        <div class="quote-mark">"</div>
+        <h3 class="founder-name">Rajesh Pardeshi</h3>
+        <span class="founder-title-tag">Founder &amp; Proprietor, Tirupati Sales Corporation</span>
+        <p class="founder-bio">
+          With over a decade of hands-on experience in the industrial tools and mechanical supplies industry, 
+          Rajesh Pardeshi founded Tirupati Sales Corporation with a clear vision — to provide quality industrial 
+          products at honest prices to businesses across Chh. Sambhajinagar and surrounding regions.
+        </p>
+        <p class="founder-bio">
+          His deep knowledge of industrial requirements, combined with strong relationships with top manufacturers 
+          like Fenner, Eastman, Bradma and Totem, has made TSC a trusted name among engineers, 
+          contractors and maintenance professionals.
+        </p>
+        <p class="founder-bio">
+          "Our commitment is simple — the right product, at the right price, delivered with the right service."
+        </p>
+        <div class="founder-stats">
+          <div class="f-stat"><span>32+</span><small>Years in Business</small></div>
+          <div class="f-stat"><span>9+</span><small>Brand Partnerships</small></div>
+          <div class="f-stat"><span>500+</span><small>Satisfied Clients</small></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT US -->
+  <section class="about-section" id="about">
+    <div class="about-grid">
+      <div class="about-visual">
+        <div class="about-big-letter">TSC</div>
+        <div class="about-badge-float">Since 2010+</div>
+      </div>
+      <div class="about-content">
+        <span class="section-tag">Our Story</span>
+        <h2 class="section-title left">About Us</h2>
+        <p>
+          <strong>Tirupati Sales Corporation</strong> is a leading supplier of industrial, mechanical, 
+          hand tools and maintenance items based in Cidco, Chh. Sambhajinagar (Aurangabad), Maharashtra.
+        </p>
+        <p>
+          We are authorized dealers for some of India's most reputed industrial brands — <strong>Akar, Totem, 
+          Bradma, Fenner, Speb7, Sterling, SVS, Laser Technologies</strong> and <strong>Eastman</strong> — ensuring our customers always receive 
+          genuine, high-quality products.
+        </p>
+        <p>
+          Whether you are a factory engineer, a maintenance contractor, or a small workshop owner — 
+          we have the right tools for your job. Our knowledgeable team helps you find the exact product 
+          that fits your technical requirement and budget.
+        </p>
+        <div class="about-highlights">
+          <div class="highlight-item">
+            <i class="fas fa-check-circle"></i>
+            <span>Genuine Brand Products</span>
+          </div>
+          <div class="highlight-item">
+            <i class="fas fa-check-circle"></i>
+            <span>Competitive Pricing</span>
+          </div>
+          <div class="highlight-item">
+            <i class="fas fa-check-circle"></i>
+            <span>Bulk Order Available</span>
+          </div>
+          <div class="highlight-item">
+            <i class="fas fa-check-circle"></i>
+            <span>Expert Product Guidance</span>
+          </div>
+          <div class="highlight-item">
+            <i class="fas fa-check-circle"></i>
+            <span>Fast Local Delivery</span>
+          </div>
+          <div class="highlight-item">
+            <i class="fas fa-check-circle"></i>
+            <span>32+ Years of Trust</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- ENQUIRY FORM -->
+<section class="enquiry-section" id="enquiry">
+
+  <div class="section-header">
+    <span class="section-tag">Product Enquiry</span>
+    <h2 class="section-title">Tell Us What You Need</h2>
+    <p class="section-sub">
+      Share your requirement and our team will get back to you shortly.
+    </p>
+  </div>
+
+<form
+  class="enquiry-form"
+  id="enquiryForm"
+  action="https://formsubmit.co/rajtsc@hotmail.com"
+  method="POST">
+
+    <!-- FormSubmit Settings -->
+    <input type="hidden" name="_subject" value="New Product Enquiry">
+
+    <input type="hidden" name="_captcha" value="false">
+
+    <input type="hidden" name="_template" value="table">
+
+    <!-- Change this after creating thankyou page -->
+    <!--<input type="hidden" name="_next" value="https://yourwebsite.com/thankyou.html"> -->
+
+
+    <div class="enquiry-fields">
+
+      <label class="form-field">
+        <span>Full Name <em>*</em></span>
+        <input 
+          type="text" 
+          name="Full Name" 
+          autocomplete="name" 
+          required 
+          maxlength="100" />
+      </label>
+
+
+      <label class="form-field">
+        <span>Company Name</span>
+        <input 
+          type="text" 
+          name="Company Name" 
+          autocomplete="organization" 
+          maxlength="120" />
+      </label>
+
+
+      <label class="form-field">
+        <span>Email Address <em>*</em></span>
+        <input 
+          type="email" 
+          name="Customer Email" 
+          autocomplete="email" 
+          required 
+          maxlength="160" />
+      </label>
+
+
+      <label class="form-field">
+        <span>Mobile Number <em>*</em></span>
+        <input 
+          type="tel" 
+          name="Mobile Number" 
+          autocomplete="tel" 
+          required 
+          maxlength="20" 
+          pattern="[0-9+()\s-]{7,20}" />
+      </label>
+
+
+      <label class="form-field form-field-wide">
+        <span>Product / Requirement <em>*</em></span>
+        <input 
+          type="text" 
+          name="Product Requirement" 
+          required 
+          maxlength="200" />
+      </label>
+
+
+      <label class="form-field form-field-wide">
+        <span>Message</span>
+        <textarea 
+          name="Message" 
+          rows="5" 
+          maxlength="2000"></textarea>
+      </label>
+
+
+    </div>
+
+
+    <div class="enquiry-actions">
+
+      <button 
+        type="submit" 
+        class="btn-primary" 
+        id="enquirySubmit">
+        Submit Enquiry
+      </button>
+
+    <p class="form-status" id="enquiryStatus"></p>
+
+    </div>
+
+
+  </form>
+
+</section>
+
+  <!-- CONTACT SECTION -->
+  <section class="contact-section" id="contact">
+    <div class="section-header light">
+      <span class="section-tag light">Get In Touch</span>
+      <h2 class="section-title light">Contact Us</h2>
+      <p class="section-sub light">We're here to help you find the right product</p>
+    </div>
+    <div class="contact-grid">
+      <div class="contact-card">
+        <div class="contact-icon phone"><i class="fas fa-phone-alt"></i></div>
+        <h4>Call Us</h4>
+        <a href="tel:9325211975">9325211975</a>
+        <a href="tel:7020293550">7020293550</a>
+        <!-- <a href="tel:9370654211">9370654211</a>
+        <a href="tel:9370124018">9370124018</a> -->
+        <a href="tel:9326211976">9326211976</a>
+      </div>
+
+      <a class="contact-card whatsapp-card" href="https://wa.me/919325211975" target="_blank">
+        <div class="contact-icon whatsapp"><i class="fab fa-whatsapp"></i></div>
+        <h4>WhatsApp</h4>
+        <p class="contact-link">Chat with us on WhatsApp</p>
+        <p class="contact-link">+91 9325211975</p>
+        <p class="contact-hint">Click to open WhatsApp directly</p>
+      </a>
+
+      <a class="contact-card email-card" href="mailto:rajtsc@hotmail.com">
+        <div class="contact-icon email"><i class="fas fa-envelope"></i></div>
+        <h4>Email Us</h4>
+        <p class="contact-link">rajtsc@hotmail.com</p>
+        <p class="contact-hint">We respond within 24 hours</p>
+      </a>
+      <div class="contact-card">
+        <div class="contact-icon location"><i class="fas fa-map-marker-alt"></i></div>
+        <h4>Visit Us</h4>
+        <p>N-Mob 7, Kalapandit HSG Society,</p>
+        <p>Near MSEB Fuse Call Centre,</p>
+        <p>Cidco, Chh. Sambhajinagar</p>
+        <a href="https://www.google.com/maps/place/Tirupati+Sales+Corpooration/@19.8883303,75.3608926,17z/data=!3m1!4b1!4m6!3m5!1s0x3bdba3928327a973:0xae7d90c0cf7a6f28!8m2!3d19.8883253!4d75.3634675!16s%2Fg%2F11j0srtbxt?entry=ttu&g_ep=EgoyMDI2MDQyOS4wIKXMDSoASAFQAw%3D%3D" target="_blank" class="map-link">
+          <i class="fas fa-directions"></i> Get Directions
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <div class="logo-circle small">
+          <img src="Assets/TSC-logo.svg" alt="TSC logo" class="footer-logo-img">
+        </div>
+        <div>
+          <strong>TIRUPATI SALES CORPORATION</strong>
+          <p>Industrial · Mechanical · Hand Tools · Maintenance</p>
+        </div>
+      </div>
+      <div class="footer-links">
+        <a href="#home">Home</a>
+        <a href="#deals">Products</a>
+        <a href="#pricelist">Price List</a>
+        <a href="#founder">Founder</a>
+        <a href="#about">About Us</a>
+        <a href="#enquiry">Enquiry</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <p class="footer-copy">© 2026 Tirupati Sales Corporation. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <div id="pdfModal" class="pdf-modal">
+
+    <div class="pdf-content">
+
+        <button class="close-btn" onclick="closePDF()">✕</button>
+
+        <iframe id="pdfFrame" src=""></iframe>
+
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+
+  
+
+</body>
+</html>
